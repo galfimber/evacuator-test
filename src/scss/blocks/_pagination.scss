@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid var(--main-blue);
+    border-radius: 6px;
+    color: var(--main-blue);
+    font-family: var(--font-accent);
+    transition: 0.2s ease-in;
+    &--active {
+      background-color: var(--main-blue);
+      color: var(--white);
+    }
+    &:hover {
+      background-color: var(--hover);
+      border: 1px solid var(--hover);
+      color: var(--white);
+    }
+    &:active {
+      background-color: var(--active);
+      border: 1px solid var(--active);
+      color: var(--white);
+    }
+  }
+}

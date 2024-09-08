@@ -1,0 +1,58 @@
+.what-price {
+  &__wrapper {
+    padding: 100px 0;
+  }
+  &__title {
+    font-size: 40px;
+    font-family: var(--font-accent);
+    margin-bottom: 48px;
+  }
+  &__text {
+    margin-bottom: 25px;
+    white-space: pre-line;
+  }
+  &__subtitle {
+    margin-bottom: 32px;
+    font-family: var(--font-accent);
+  }
+  &__cards {
+    display: flex;
+    gap: 24px;
+  }
+}
+.card {
+  position: relative;
+  width: 332px;
+  border-radius: 20px;
+  background-color: var(--main-blue);
+  margin-top: 74.5px;
+  padding: 31px 20px 28px;
+  color: var(--white);
+  &__img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: - calc(149px/2);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    background-color: var(--main-blue);
+  }
+  &__info {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  &__title {
+    font-family: var(--font-accent);
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  &__text {
+    font-size: 18px;
+    white-space: pre-line;
+  }
+}

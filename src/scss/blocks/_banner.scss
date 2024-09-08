@@ -1,0 +1,23 @@
+.banner {
+  background-position: center;
+  background-image: url(./../img/image/banner.png);
+  text-align: center;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+  }
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 126px;
+  }
+  &__img {
+    width: 210px;
+  }
+  &__title{
+    padding: 36.5px 0 45.5px;
+  }
+}

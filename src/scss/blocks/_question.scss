@@ -1,0 +1,41 @@
+.question {
+  background-color: #fff5cc;
+  &__row {
+    display: flex;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+      .question__info {
+        padding: 80px 260px 60px 56px;
+      }
+    }
+  }
+  &__info {
+    width: 50%;
+    padding: 80px 56px 60px 260px;
+  }
+  &__img {
+    width: 50%;
+  }
+  &__title {
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-family: var(--font-accent);
+    white-space: pre-line;
+  }
+  &__text {
+    margin-bottom: 24px;
+    white-space: pre-line;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    white-space: pre-line;
+  }
+  &__item {
+    min-height: 32px;
+    background: url(./../img/icon/li-check.svg) no-repeat 0 5px;
+    background-position: left top;
+    padding-left: 48px;
+  }
+}

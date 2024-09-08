@@ -1,0 +1,19 @@
+.types{
+    padding-bottom: 100px;
+    &__title{
+        margin-bottom: 48px;
+        font-size: 40px;
+        font-family: var(--font-accent);
+    }
+    &__text{
+        margin-bottom: 30px;
+        white-space: pre-line;
+    }
+    &__subtitle{
+        margin-bottom: 32px;
+        font-family: var(--font-accent);
+    }
+    &__slider{
+        position: relative;
+    }
+}

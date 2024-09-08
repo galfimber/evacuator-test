@@ -1,0 +1,12 @@
+.add {
+  padding: 60px 0 80px;
+  &__info {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 60px;
+  }
+  &__text {
+    white-space: pre-line;
+  }
+}

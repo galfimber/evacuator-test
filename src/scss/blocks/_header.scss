@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--white);
+  padding: 22px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 112px;
+  }
+  &__nav {
+    width: 775px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    width: 305px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    & a {
+      color: var(--dark);
+    }
+  }
+}

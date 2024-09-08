@@ -1,0 +1,56 @@
+.how-to-call {
+  padding: 100px 0;
+  background-color: var(--white);
+  &__wrapper {
+    display: flex;
+    gap: 25px;
+  }
+  &__info {
+    width: 698px;
+  }
+  &__title {
+    font-size: 40px;
+    color: var(--dark);
+    font-family: var(--font-accent);
+    margin-bottom: 48px;
+  }
+  &__text {
+    white-space: pre-line;
+  }
+  &__text + &__text {
+    margin-top: 28px;
+  }
+  &__img {
+    position: relative;
+    width: 677px;
+    height: 611px;
+  }
+  &__cloud {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    z-index: 2;
+  }
+  &__ellipse {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 413px;
+    height: 413px;
+    background-color: var(--main-blue);
+    border-radius: 50%;
+    -webkit-box-shadow: 18px -11px 25.1px 0px rgba(234, 189, 7, 1);
+    -moz-box-shadow: 18px -11px 25.1px 0px rgba(234, 189, 7, 1);
+    box-shadow: 18px -11px 25.1px 0px rgba(234, 189, 7, 1);
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      width: 427px;
+      height: 454px;
+      background-image: url(./../img/image/man.png);
+      clip-path: ellipse(218px 240px at 48.5% 47.4%);
+    }
+  }
+}
